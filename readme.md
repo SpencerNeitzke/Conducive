@@ -1,0 +1,3 @@
+A primarily Python-based, yet platform-independent, peer-to-peer system for deploying commands to a cluster of hosts using UDP and sockets.
+
+When run, a main relaying host is automatically chosen which will broadcast given commands from an external botmaster to all other clients within the network that are listening to the relay. If the relay is disconnected, a new one will be chosen and begin requesting commands from the external botmaster.
